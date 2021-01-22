@@ -21,12 +21,12 @@ Um service mesh tem dois componentes principais:
 
 1. O usuário implanta seu aplicativo no Kubernetes. O aplicativo, “BookInfo”, é composto por quatro microsserviços, cada um escrito em uma linguagem diferente: Python, Java, Ruby e Node.js. 
 
-- productpage: esse microsserviço chama os microsserviços _details_ e _reviews_ para popular a página.
-- details: contém informações sobre livros.
-- reviews: contém avaliações de livros. Ele também chama o microsserviço _ratings_.
-- ratings: contém informações de ranking que acompanham uma avaliação de livro.
+- _productpage_: esse microsserviço chama os microsserviços _details_ e _reviews_ para popular a página.
+- _details_: contém informações sobre livros.
+- _reviews_: contém avaliações de livros. Ele também chama o microsserviço _ratings_.
+- _ratings_: contém informações de ranking que acompanham uma avaliação de livro.
 
-O microsserviço Reviews, escrito em Java, possui três versões diferentes:
+O microsserviço _reviews_, escrito em Java, possui três versões diferentes:
 
 - Versão v1 não chama o microsserviço _ratings_.
 - Versão v2 chama o microsserviço _ratings_, e mostra cada avaliação como estrelas pretas de 1 a 5.
@@ -38,4 +38,13 @@ O microsserviço Reviews, escrito em Java, possui três versões diferentes:
 
 3. Istio Pilot é um componente do control plane responsável pelo ciclo de vida das instâncias do Envoy implantadas na malha de serviço do Istio. Ele expõe APIs para service discovery, atualizações dinâmicas para pools de balanceamento de carga e tabelas de roteamento. Essas APIs separam o Envoy das nuances específicas da plataforma, simplificando o design e aumentando a portabilidade entre as plataformas. O Pilot é usado aqui para gerenciar o roteamento entre as versões do serviço _reviews_. Na imagem, o usuário configurou para que as versões 1 e 3 do microsserviço recebam 50% do tráfego; a versão 2 é ativada apenas para um usuário específico.
 
-4. Istio Mixer é outro componente do control plane. O Mixer fornece uma camada de intermediação genérica entre o código do aplicativo e os back-ends de infraestrutura. Seu design move as decisões de política da camada do aplicativo para a configuração, sob o controle do operador. Em vez de ter o código do aplicativo integrado com back-ends específicos, o código do aplicativo faz uma integração bastante simples com o Mixer, e o Mixer assume a responsabilidade pela interface com os sistemas de back-end. No sistema em questão, o usuário pode configurar, utilizando o Mixer, o controle de acesso para serviços para negar o tráfego da versão 3 do microsserviço _review_ a qualquer acesso ao microsserviço de _ratings_.
+4. Istio Mixer é outro componente do control plane. O Mixer fornece uma camada de intermediação genérica entre o código do aplicativo e os back-ends de infraestrutura. Seu design move as decisões de política da camada do aplicativo para a configuração, sob o controle do operador. Em vez de ter o código do aplicativo integrado com back-ends específicos, o código do aplicativo faz uma integração bastante simples com o Mixer, e o Mixer assume a responsabilidade pela interface com os sistemas de back-end. No sistema em questão, o usuário pode configurar, utilizando o Mixer, o controle de acesso para serviços para negar o tráfego da versão 3 do microsserviço _review_ a qualquer acesso ao microsserviço de _ratings_. O Mixer também pode ser utilizado para regras de telemetria para encaminhamento a addons como Grafana e Prometheus e coleta de traces com Jeager.
+
+5. O objetivo do Istio Auth é aprimorar a segurança dos microsserviços e sua comunicação sem exigir alterações no código do serviço. É responsável por: (1) 
+fornecer a cada serviço uma identidade forte que representa sua função para permitir a interoperabilidade entre clusters e nuvens; (2) proteger serviço para comunicação de serviço; (3) fornecer um sistema de gerenciamento de chaves para automatizar a geração, distribuição, rotação e revogação de chaves e certificados.
+
+6. A arquitetura passa a incluir um backing service externo: uma base de dados MySql. 
+
+7. Três microserviços — _details_, _ratings_ e _reviews_ — são modificados para usar o banco de dados MySQL.
+
+8. Por padrão, as aplicações ativas via Istio são incapazes de acessar uma URL de fora do cluster. Todo o tráfego de saída no pod é redirecionado por seu proxy Envoy, que lida apenas com destinos dentro do cluster. No entanto, o Istio permite que você defina um ServiceEntry para controlar a saída para serviços externos. 
