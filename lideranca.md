@@ -11,11 +11,15 @@
 - Possibilitar formas de se autoconhecer: mapear tendências de comportamento
 - Saber como receber feedbacks
 - Análise SWOT pode ajudar a entender qual é o propósito individual de cada um
-- Reconhecer o mindset: fixo ou de crescimento. Observar o mindset da equipe.
+- Reconhecer o mindset: fixo ou de crescimento. Observar o mindset da equipe
 - Habilidades importantes para autoavaliar: empatia, escuta ativa, relacionamento interpessoal.
 
 ## Eu, líder de pessoas
 
+- Três mudanças são essenciais para as mudanças nos estágios de liderança:
+  - Novas habilidades
+  - Aplicação do tempo
+  - Rever os valores profissionais
 - Estabelecimento de prioridades: planejamento, estratégias, jogadores, regras do jogo...
 - Conheça seu time
 - Promova momentos de interação e cultura de feedback
@@ -23,3 +27,9 @@
 - Organize o tempo
 - Boa comunicação, seja um porta voz
 - [Como definir prioridades quando tudo é urgente?](https://vocesa.abril.com.br/geral/como-definir-prioridades-quando-tudo-e-urgente/)
+- Construa confiança com sua equipe
+  - Honre sua palavra
+  - Demonstre lealdade: seja íntegro
+  - Demonstre empatia: se interesse pelos seus liderados
+  - Seja transparente
+
