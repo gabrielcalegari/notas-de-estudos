@@ -16,4 +16,10 @@
 
 ## Eu, líder de pessoas
 
-- 
+- Estabelecimento de prioridades: planejamento, estratégias, jogadores, regras do jogo...
+- Conheça seu time
+- Promova momentos de interação e cultura de feedback
+- Entenda o contexto
+- Organize o tempo
+- Boa comunicação, seja um porta voz
+- [Como definir prioridades quando tudo é urgente?](https://vocesa.abril.com.br/geral/como-definir-prioridades-quando-tudo-e-urgente/)
