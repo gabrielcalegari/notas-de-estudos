@@ -16,6 +16,7 @@
 
 ## Eu, líder de pessoas
 
+- [Pipeline de Liderança](https://www.siteware.com.br/blog/lideranca/pipeline-de-lideranca/)
 - Três mudanças são essenciais para as mudanças nos estágios de liderança:
   - Novas habilidades
   - Aplicação do tempo
