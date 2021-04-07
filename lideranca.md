@@ -14,7 +14,7 @@
 - Reconhecer o mindset: fixo ou de crescimento. Observar o mindset da equipe
 - Habilidades importantes para autoavaliar: empatia, escuta ativa, relacionamento interpessoal.
 
-## Eu, líder de pessoas
+## Eu, líder de pessoas: transição
 
 - [Pipeline de Liderança](https://www.siteware.com.br/blog/lideranca/pipeline-de-lideranca/)
 - Três mudanças são essenciais para as mudanças nos estágios de liderança:
@@ -34,3 +34,12 @@
   - Demonstre empatia: se interesse pelos seus liderados
   - Seja transparente
 
+## Eu, líder de pessoas: desenvolvimento
+
+- Escolhendo o time:
+  - Mapear a equipe é fundamental:
+    - Experiência
+    - Nível 
+    - Atividades
+    - Habilidades técnicas
+    - Habilidades comportamentais
