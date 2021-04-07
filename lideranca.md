@@ -43,3 +43,7 @@
     - Atividades
     - Habilidades técnicas
     - Habilidades comportamentais
+- Definindo as regras do jogo:
+  - Estabelecer as expectativas de forma clara e transparente
+  - Regras podem ser oficializadas de forma escrita, mas é imprescindível que seja feita de forma oral primeiro: isso gera confiança na palavra do líder
+  - Estabelecer objetivos com exemplos práticos!
