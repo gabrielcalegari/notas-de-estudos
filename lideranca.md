@@ -47,3 +47,9 @@
   - Estabelecer as expectativas de forma clara e transparente
   - Regras podem ser oficializadas de forma escrita, mas é imprescindível que seja feita de forma oral primeiro: isso gera confiança na palavra do líder
   - Estabelecer objetivos com exemplos práticos!
+- Desenvolvendo habilidades:
+  - Plano de Desenvolvimento Individual
+  - O líder como desenvolvedor de habilidades:
+    - Mentor: atuação é com foco na transferência de conhecimento
+    - Coach: com foco na tomada de decisão da pessoa e do pensamento analítico
+  - 
