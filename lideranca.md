@@ -69,3 +69,11 @@
   - Pessoal e em sala reservada
   - Com muita transparência e com muito respeito
   - Converse com a equipe sobre a decisão
+
+## Eu, líder no ambiente
+
+- Estabelecer parcerias com pares:
+  - Isso acontece quando o líder já aprendeu a delegar e criar líderes informais
+  - Não esquecer da sua própria carreira
+- Aprender sempre: cultivar o Lifelong learning
+  - [Palestra do Leandro Karnal sobre o tema](https://youtu.be/DbFleplwqho)
