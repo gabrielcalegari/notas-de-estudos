@@ -52,4 +52,20 @@
   - O líder como desenvolvedor de habilidades:
     - Mentor: atuação é com foco na transferência de conhecimento
     - Coach: com foco na tomada de decisão da pessoa e do pensamento analítico
-  - 
+  
+  ## Eu, líder de pessoas: comunicação
+  
+- Engajando pessoas:
+  - Identificar o que faz as pessoas terem motivação no trabalho através de escuta ativa
+  - Teoria de Maslow: hierarquia de necessidades
+  - [Guia de One a One](http://lgmoneda.github.io/2020/01/20/guia-de-one-on-one.html)
+- A comunicação impactante:
+  - Desenvolvimento de inteligência emocional
+  - [E-book sobre inteligência emocional](https://materiais.passadori.com.br/e-book-inteligencia-emocional-e-lideranca)
+- Demitindo pessoas:
+  - Oportunidade de escuta 
+  - 3 feedbacks formais
+  - Esteja acerto na sua decisão, se precisar, converse com pares
+  - Pessoal e em sala reservada
+  - Com muita transparência e com muito respeito
+  - Converse com a equipe sobre a decisão
